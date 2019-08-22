@@ -3,14 +3,13 @@ def new_hash
 end
 
 def actor
-	actor_hash = {:name, :value}
+	actor_hash = {:name => {}, :value => {}}
 end
 
 def monopoly
 	monopoly = {
 		:railroads=>{}
 	}
-
 end
 
 def monopoly_with_second_tier
